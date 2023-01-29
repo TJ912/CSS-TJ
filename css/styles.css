@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    text-align: center;
+
+    /* margin-top: 0; */
+}
+
+div {
+    border: no;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: normal;
+    font-family: 'Noto Sans NKo', sans-serif;
+}
+
+hr{
+    width: 10%;
+    height: auto;
+    border-style: dotted;
+    border-width: 6px;
+    border-bottom: none;
+    border-color:rgb(119, 119, 119) ;
+}
+
+.top-container {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(56, 56, 132, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    height: auto;
+}
+
+.middle-container {
+    padding-top: 10px;
+}
+.bottom-container{
+    background: linear-gradient(0deg, rgb(5, 0, 94) 0%, rgba(56, 56, 132, 1) 35%, rgb(53, 221, 255) 100%);
+    height: 100px;
+    margin:50px auto 0px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+}
+
+.city-night {
+    width: 100%;
+    height: auto;
+}
+/* ======================Profile============================================ */
+.profile {
+    /* background-color: ; */
+    /* padding: 0px; */
+    margin: 50px auto;
+}
+
+.welcome{
+    color:#00337C;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2.5rem;
+}
+
+.introduce{
+    width: 45%;
+    margin: auto;
+    font-family: 'Varela Round', sans-serif;
+}
+/* ========================Skill========================================== */
+
+.font1 {
+    font-family: 'Monoton', cursive;
+    font-weight: bold;
+    font-size: 4.5rem !important;
+    /*16px =100%=1em*/
+    font-style: bold;
+    color: rgb(222, 255, 36);
+    line-height: 1;
+    margin: 70px auto 0 auto;
+}
+
+.top-cloud {
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+
+.mid-cloud {
+    position: absolute;
+    display: inline;
+    left: 200px;
+}
+
+.round-image {
+    border-radius: 50%;
+    border-width: 5px;
+    width: 200px;
+    height: 200px;
+}
+.border{
+    border-style: dashed;
+    border-color: #0579ee;
+}
+.skill-row {
+    width: 40%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.web-image {
+    float: left;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.program-skill {
+    float: right;
+    margin-left: 20px;
+}
+.skill-title{
+    color: #00337C;
+    font-family: 'Kanit', sans-serif;
+    /* font-style: bold; */
+    /* word-spacing: 2; */
+}
+
+.skill-description{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 2;
+}
+
+
+
+
+
+/* ================Button============================ */
+.myButton {
+	box-shadow:inset -1px 0px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #63a0dd 5%, #0579ee 100%);
+    font-family: 'Varela Round', sans-serif;
+	background-color:#79bbff;
+	border-radius:10px;
+	border:2px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:15px 36px;
+    margin: 20px auto;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #34618f;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f09013 5%, #ffaf79 100%);
+	background-color:#1381f0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* Contact me */
+.contact-title{
+    color: #00337C;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2.2rem;
+    padding-top: 50px;
+    /* font-weight: 100; */
+    font-style: bold;
+}
+.description{
+    color: #13005A;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 2;
+    font-size: 2.0rem;
+}
+
+
+.footer-link{
+    text-decoration: none;
+    padding: 20px 10px;
+    font-size: 20px;
+    color: #2d2ada;
+    font-family: 'Varela Round', sans-serif;
+}
+.footer-link:hover{
+    color: #03C988;
+    font-family: 'Varela Round', sans-serif;
+    font-style: normal;
+    
+}
+.end-footer{
+    color: white;
+    position: relative;
+    margin: auto;
+    top: 20px;
+}
